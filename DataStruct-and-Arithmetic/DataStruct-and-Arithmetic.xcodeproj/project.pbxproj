@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F8B395CA2699737800F165F6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8B395C92699737800F165F6 /* main.cpp */; };
+		F8B395D32699A2C700F165F6 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8B395D12699A2C700F165F6 /* LinkedList.cpp */; };
+		F8B395D62699A99D00F165F6 /* LinkedListTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8B395D42699A99D00F165F6 /* LinkedListTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		F8B395C62699737800F165F6 /* DataStruct-and-Arithmetic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DataStruct-and-Arithmetic"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B395C92699737800F165F6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F8B395D12699A2C700F165F6 /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		F8B395D22699A2C700F165F6 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
+		F8B395D42699A99D00F165F6 /* LinkedListTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTest.cpp; sourceTree = "<group>"; };
+		F8B395D52699A99D00F165F6 /* LinkedListTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,21 @@
 		F8B395C82699737800F165F6 /* DataStruct-and-Arithmetic */ = {
 			isa = PBXGroup;
 			children = (
+				F8B395D02699A2B200F165F6 /* LinkedList */,
 				F8B395C92699737800F165F6 /* main.cpp */,
 			);
 			path = "DataStruct-and-Arithmetic";
+			sourceTree = "<group>";
+		};
+		F8B395D02699A2B200F165F6 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				F8B395D22699A2C700F165F6 /* LinkedList.hpp */,
+				F8B395D12699A2C700F165F6 /* LinkedList.cpp */,
+				F8B395D52699A99D00F165F6 /* LinkedListTest.hpp */,
+				F8B395D42699A99D00F165F6 /* LinkedListTest.cpp */,
+			);
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B395D62699A99D00F165F6 /* LinkedListTest.cpp in Sources */,
+				F8B395D32699A2C700F165F6 /* LinkedList.cpp in Sources */,
 				F8B395CA2699737800F165F6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
